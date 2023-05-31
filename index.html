@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ЭксКурсор</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+	    <script src="js/html5shiv.js"></script>
+	    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    
+    <style>
+
+        .btn {
+
+            position: fixed;
+            right: 150px;
+            bottom: 100px;
+            box-sizing: border-box;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-color: transparent;
+            border: 2px solid #e74c3c;
+            border-radius: 0.6em;
+            color: #e74c3c;
+            cursor: pointer;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-self: center;
+            -ms-flex-item-align: center;
+            align-self: center;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1;
+            margin: 20px;
+            padding: 1.2em 2.8em;
+            text-decoration: none;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 700;
+
+        }
+
+        .btn:hover,
+        .btn:focus {
+
+            color: #fff;
+            outline: 0;
+
+        }
+
+        .me {
+
+            -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+            transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+
+        }
+
+        .me:hover {
+
+            box-shadow: 0 0 40px 40px #e74c3c inset;
+
+        }
+
+    </style>
+
+</head>
+
+<!--/head-->
+
+<body>
+
+    <header id="header">
+
+        <div class="navbar navbar-inverse" role="banner">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+
+                        <span class="sr-only">Toggle navigation</span>
+
+                        <span class="icon-bar"></span>
+
+                        <span class="icon-bar"></span>
+
+                        <span class="icon-bar"></span>
+
+                    </button>
+
+                    <a class="navbar-brand" href="index.html">
+
+                        <h1><img src="images/logo.png" alt="logo"></h1>
+
+                    </a>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li class="active"><a href="index.html">Главная</a></li>
+
+                        <li class="dropdown">
+                            
+                            <a href="#">Экскурсии <i class="fa fa-angle-down"></i></a>
+
+                            <ul role="menu" class="sub-menu">
+
+                                <li>
+                                    
+                                    <a href="sosnovy_bor.html">Сосновый бор</a>
+                                
+                                </li>
+
+                                <li>
+                                    
+                                    <a href="dom_na_krasnoy_gorke.html">Дом на Красной горке</a>
+                                
+                                </li>
+
+                                <li>
+                                    
+                                    <a href="eto_ofis.html">ЭТО_ОФИС</a>
+                                
+                                </li>
+
+                            </ul>
+
+                        </li>
+
+                        <li class="dropdown">
+                            
+                            <a href="blog.html">Гиды <i class="fa fa-angle-down"></i></a>
+
+                            <ul role="menu" class="sub-menu">
+
+                                <li>
+                                    
+                                    <a href="shitova.html">Любовь Шитова</a>
+                                
+                                </li>
+
+                                <li>
+                                    
+                                    <a href="nasedkin.html">Сергей Наседкин</a>
+                                
+                                </li>
+
+                                <li>
+                                    
+                                    <a href="murugova.html">Анна Муругова</a>
+                                
+                                </li>
+
+                            </ul>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!--/#header-->
+
+    <section id="home-slider">
+
+        <div class="container">
+
+            <div class="main-slider">
+
+                <div class="slide-text">
+
+                    <h1>"ЭксКурсор"</h1>
+
+                    <p>Данный сайт поможет вам найти интересные экскурсии по Областному центру Кемеровской области - Кузбасса, северной столице области - городу Кемерово. Вместе с данными местами вы найдёте у нас и профессионалов своего дела, лиц, которые знают эти места, как свои пять пальцев - гидов!</p>
+
+                </div>
+
+                <img src="images/home/slider/slide1/house.png" class="img-responsive slider-house" alt="slider image">
+
+                <img src="images/home/slider/slide1/circle1.png" class="slider-circle1" alt="slider image">
+
+                <img src="images/home/slider/slide1/circle2.png" class="slider-circle2" alt="slider image">
+
+                <img src="images/home/slider/slide1/cloud1.png" class="slider-cloud1" alt="slider image">
+
+                <img src="images/home/slider/slide1/cloud2.png" class="slider-cloud2" alt="slider image">
+
+                <img src="images/home/slider/slide1/cloud3.png" class="slider-cloud3" alt="slider image">
+
+                <img src="images/home/slider/slide1/sun.png" class="slider-sun" alt="slider image">
+
+                <img src="images/home/cycle.png" class="slider-cycle" alt="">
+
+            </div>
+
+        </div>
+
+        <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
+
+    </section>
+
+    <!--/#home-slider-->
+
+    <section id="services">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+
+                    <div class="single-service">
+
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+
+                            <img src="images/home/icon1.png" alt="Рюкзак">
+
+                        </div>
+
+                        <h2>Налегке</h2>
+
+                        <p>Все экскурсии осуществляются в формате легкой прогулки, поэтому Вам не придется тащить с собой чемоданы или рюкзаки.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+
+                    <div class="single-service">
+
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+
+                            <img src="images/home/icon2.png" alt="Компас">
+
+                        </div>
+
+                        <h2>Экономно</h2>
+
+                        <p>Вам не придется перерывать множество сайтов или архивов, чтобы получить какуюто информацию о месте. Это уже все знает профессиональный гид!</p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+
+                    <div class="single-service">
+
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+
+                            <img src="images/home/icon3.png" alt="Паспорт">
+
+                        </div>
+
+                        <h2>Безвизово</h2>
+
+                        <p>Для путешествия совсем не обязательно оформлять визу в какую-то страну или покупать билеты в другой регион! Необходимо просто осмотреться вокруг и обратить внимание на чудо, лежащее перерд самым носом!</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--/#services-->
+
+    <section id="features">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="single-features">
+
+                    <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+
+                        <img src="images/home/image1.jpg" class="img-responsive" alt="Офис">
+
+                    </div>
+
+                    <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+
+                        <h2>Комфорт</h2>
+
+                        <P>Каждое посещаемое место, по-своему, наполнено комфортом: в зданиях можно посидеть на мягких креслах или скалейках, а в лесу проникнуться комфортной обстановкой дикой природы!</P>
+
+                    </div>
+
+                </div>
+
+                <div class="single-features">
+
+                    <div class="col-sm-6 col-sm-offset-1 align-right wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+
+                        <h2>Погружение</h2>
+
+                        <P>Каждая экскурсия способна окунуть вас в историю любимого городка, и причем сделать это с, неповторимой для каждого памятника города, изюминкой!</P>
+
+                    </div>
+
+                    <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+
+                        <img src="images/home/image2.jpg" class="img-responsive" alt="Дом">
+
+                    </div>
+
+                </div>
+
+                <div class="single-features">
+
+                    <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+
+                        <img src="images/home/image3.jpg" class="img-responsive" alt="Гора">
+
+                    </div>
+
+                    <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+
+                        <h2>Красота</h2>
+
+                        <P>Все места способны поразить своим видом с первого взгляда на природные и архетиктурные памятники!</P>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--/#features-->
+
+    <section id="clients">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-sm-12">
+
+                    <div class="clients text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+
+                        <p><img src="images/home/clients.png" class="img-responsive" alt="Милая статуя"></p>
+
+                        <h1 class="title">Простота</h1>
+
+                        <p>Просто выберите себе экскурсию и гида по душе, и тогда Вы сможете смело отправиться в релаксирующее и познавательное путешествие по просторам любимого города! </br> </br> Если у Вас есть свои предложения гидов, или экскурсий, или отзыв об экскурсии или сайте в целом, то Вы всегда можете связаться со мной, через кнопку!</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--/#clients-->
+
+    <footer id="footer">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-sm-12 text-center bottom-separator">
+
+                    <img src="images/home/under.png" class="img-responsive inline" alt="Красивая разделительная линия">
+
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+
+                    <div class="testimonial bottom">
+
+                        <h2>Цитаты</h2>
+
+                        <div class="media">
+
+                            <div class="pull-left">
+
+                                <a href="#"><img src="images/home/none_profile.jpg" alt="Фото профиля отсутствует"></a>
+
+                            </div>
+
+                            <div class="media-body">
+
+                                <blockquote>Вот чем хорош данный сайт ? В одном месте собраны самые поппулярные экскурсии центра Кузбасса!</blockquote>
+
+                                <h3>
+                                    
+                                    <a href="https://vk.com/evteev_anton">- Дмитрий</a>
+                                
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+                        <div class="media">
+
+                            <div class="pull-left">
+
+                                <a href="#"><img src="images/home/none_profile.jpg" alt="Фото профиля отсутствует"></a>
+
+                            </div>
+
+                            <div class="media-body">
+
+                                <blockquote>Очень милый дизайн у данного сайта! Есть конечно небольшие недоработки, но в общем и целом, вссе просто прекрасно!</blockquote>
+
+                                <h3>
+                                    
+                                    <a href="https://vk.com/kolibri2008">- Никита</a>
+                                
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+
+                    <div class="contact-info bottom">
+
+                        <h2>Контакты</h2>
+
+                        <address>
+                            E-mail: <a href="mailto:someone@example.com">rfrrrr76@gmail.com</a> <br>
+                            Phone: +7 (923) 502 8855 <br>
+                        </address>
+
+                        <h2>Адрес</h2>
+
+                        <address>
+                            Кемерово <br>
+                            Россия <br>
+                        </address>
+
+                    </div>
+
+                </div>
+
+                <div class="col-sm-12">
+
+                    <div class="copyright-text text-center">
+
+                        <a href="https://vk.com/erus_mortis">
+                            
+                            <button class="btn me">Связаться со мной</button>
+                        
+                        </a>
+
+                        <p>г. Кемерово, ул. Васильева, д. 20А</p>
+
+                        <p>&copy; Зозуля Ярослав </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!--/#footer-->
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>
